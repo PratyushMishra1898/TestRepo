@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test thread-count="5" name="My test(failed)">
+    <classes>
+      <class name="com.TestNGdemos.D07Parameterization">
+        <methods>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.TestNGdemos.D07Parameterization -->
+    </classes>
+  </test> <!-- My test(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

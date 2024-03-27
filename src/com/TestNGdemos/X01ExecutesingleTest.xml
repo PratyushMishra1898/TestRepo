@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+    <test name = "MyTest">
+        <classes>
+             <class name = "com.TestNGdemos.D05AmazonTest">
+                  <methods>
+                       <include name = "clickmobiles">
+                       </include>
+                       <include name = "clickelectronics">
+                       </include>
+                  </methods>
+             </class>
+        </classes>
+    </test>
+</suite>
